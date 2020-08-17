@@ -1,0 +1,316 @@
+
+body,
+html {
+    height: 100%
+}
+.col-lg-6{
+    min-height: 100%;
+}
+
+body,
+html {
+    height: 100%
+}
+
+#particles-js canvas {
+    display: block;
+}
+
+#particles-js {
+    width: 100vw;
+    height: 100%;
+    position: fixed;
+    z-index: -10;
+    top: 0;
+    left: 0
+}
+  
+
+.row{
+    width: 100vw;
+    height: 100%;
+    padding: 0;
+    margin-right: 0px; 
+    margin-left: 0px; 
+}
+
+
+
+
+.info{
+    padding: 0;
+}
+
+.logo{
+    height: 150px;
+}
+.countdown{
+    color: white;
+
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    max-width: none;
+}
+ul{
+    padding: 0;
+}
+.title-countdown{
+    font-weight: 700;
+}
+
+li{
+    font-weight: 500;
+  display: inline-block;
+  list-style-type: none;
+  font-size: 1em;
+  padding: 1em;
+}
+
+li span {
+    font-weight: 700;
+    display: block;
+    font-size: 3.2rem;
+  }
+
+.countdown{
+    width: 100%;
+}
+
+.coming-soon{
+    padding-left: 15px;
+    background-position: center;
+    box-shadow: inset 0 0 0 1000px rgba(1, 54, 104, 0.7);
+    background-size: cover;
+    background-image: url("https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+}
+
+.logo{
+    margin-top: 5vh;
+}
+
+input[type = email]{
+    width: 60%;
+    margin-right: 20px;
+    line-height: 40px;
+    border-radius: 25px;
+    text-align: center;
+} 
+
+input[type = email]:focus{
+    outline: none;
+}
+
+.delay-default {
+    animation-delay: 1s;
+}
+
+.delay-medium {
+    animation-delay: 0.8s;
+}
+.delay-more {
+    animation-delay: 1.3s;
+}
+input[type = submit]{
+    width:115px;
+    line-height: 40px;
+    border-radius: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    border-style: solid;
+    letter-spacing: 0.08rem;
+    font-size: 0.8rem;
+    background-color: white;
+    color:  rgb(1, 54, 104);
+    text-align: center;
+    border-color:rgb(1, 54, 104);
+    transition: all 0.5s;
+} 
+
+input[type = submit]:focus{
+    outline: none;
+}
+
+
+input[type = submit]:hover{
+    border-color:rgb(1, 54, 104);
+    background-color: rgb(1, 54, 104);
+    color: white;
+}
+
+
+.title-up{
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.6em;
+    font-weight: 800;
+}
+
+.info{
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    
+}
+.info .title-mm{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 3.5rem;
+}
+
+.info .info-mm{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    margin-top: 30px;
+    font-size: 1.5rem;
+
+}
+
+.contact-info{
+    font-size: 1rem;
+}
+
+i{
+    font-size: 1.5rem;
+    color: rgb(1, 54, 104);
+    transition: all 0.5s;
+}
+
+
+.contact-info p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.subscribe{
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+.contact-info span{
+    font-weight: 400;
+}
+
+.main{
+    margin-top: 15%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.contact-info button{
+    size: 0.5rem;
+    width: 50px;
+    border-style: solid;
+    height: 50px;
+    outline-style: none;
+    margin: 10px;
+    padding: 0;
+    padding-top: 5px;
+    background-color: white;
+    color:  rgb(1, 54, 104);
+    border-color:rgb(1, 54, 104);
+    border-radius: 50px;
+    transition: all 0.5s;
+}
+
+.contact-info button:focus{
+    outline: none;
+}
+
+
+.contact-info button:hover{
+    
+    background-color: rgb(1, 54, 104);
+    color: white;
+}
+
+.contact-info button:hover > i{
+    color: white;
+}
+
+
+@media (max-width: 419px ){
+    input[type=email]{
+        width: 80%;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+}
+
+.contact-info br {
+    display: none;
+}
+
+
+@media (max-width: 501px ){
+    .contact-info br {
+        display: block;   
+    }
+    
+
+}
+
+
+
+@media (max-width: 320px ){
+    .main{
+        padding: 20px;
+    }
+}
+
+@media (max-width: 400px ){
+    li{
+
+      font-size: 0.8em;
+
+    }
+    
+    li span {
+
+        font-size: 3.5rem;
+      }
+    
+}
+
+.coming-soon br {
+    display: none;
+}
+
+
+@media (max-width: 399px ){
+    .coming-soon br {
+        display: block;   
+    }
+}
+
+h4 {
+    text-align: center;
+    transform: scale(0.94);
+    animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+    display: inline-block;
+    animation: fade-in 1s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+    opacity: 0;
+    filter: blur(4px);
+  }
+  @keyframes scale {
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes fade-in {
+    100% {
+      opacity: 1;
+      filter: blur(0);
+    }
+  }
+
+input[type=email]{
+    border-style: solid;
+    
+    transition: all 0.5s;
+}
+input[type=email]:hover,input[type=email]:focus{
+    border-color: rgb(1, 54, 104);
+    background-color: rgba(88, 174, 255, 0.2);  
+}
+
